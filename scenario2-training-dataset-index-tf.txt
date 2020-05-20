@@ -1,0 +1,22 @@
+#insiderthreat
+0 = False
+1 = True
+
+#vector
+http = 0
+email = 1
+device = 2
+logon = 3
+
+#date
+epoch integer
+
+#user --> #user_cat
+string --> converted to category label encode and dropped
+
+
+#source --> #source_cat
+string --> converted to category label encode and dropped
+
+#action --> #action_cat
+string --> converted to category label encode and dropped
